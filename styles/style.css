@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #26577C;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #26577C;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'IBM Plex Serif', serif;
+    color: #544F4D;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+#intro {
+    background-color: #544F4D;
+    position: relative;
+}
+
+.computer {
+    position: relative;
+}
+
+.light {
+    position: absolute;
+    transform: rotate(70deg);
+    bottom: 0;
+    left: -20px;
+
+}
+
+.tag {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.glow {
+    color: #F16529;
+}
+
+#about-me {
+    background-color: #B4B4B3;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #544F4D;
+}
+
+#about-me>.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#skills {
+    background-color: #B4B4B3;
+    border-bottom: 1px solid #544F4D;
+    padding: 40px 0;
+}
+
+#skills>.skill-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#skills>.skill-content>.skill-text {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+#contact {
+    background-color: #B4B4B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#contact>.contact-content {
+    text-align: center;
+    width: 400px;
+}
+
+#contact>div>button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 31px;
+    background: linear-gradient(to right, #26577C, #F16529);
+    color: white;
+}
+
+#contact>div>button:hover {
+    background: linear-gradient(to right, #F16529, #26577C);
+}
+
+footer {
+    background-color: #544F4D;
+}
